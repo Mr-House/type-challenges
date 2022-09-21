@@ -14,3 +14,4 @@ type cases = [
 
 // @ts-expect-error
 type error = MyAwaited<number>
+

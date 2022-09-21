@@ -1,1 +1,1 @@
-type Unshift<T, U> = any
+type Unshift<T extends Array<any>, U> = [U, ...T]
