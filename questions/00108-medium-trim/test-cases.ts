@@ -10,3 +10,4 @@ type cases = [
   Expect<Equal<Trim<''>, ''>>,
   Expect<Equal<Trim<' \n\t '>, ''>>,
 ]
+

@@ -9,3 +9,4 @@ type cases = [
   Expect<Equal<TrimLeft<''>, ''>>,
   Expect<Equal<TrimLeft<' \n\t'>, ''>>,
 ]
+

@@ -15,7 +15,7 @@ const result2 = a
   .get()
 
 const result3 = a
-  .option('name', 'another name')
+  // .option('name', 'another name')
   .option('name', 123)
   .get()
 
